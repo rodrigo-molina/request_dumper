@@ -5,7 +5,7 @@ This python script based on [Tornado](https://www.tornadoweb.org/en/stable/) cre
 
 The code is based on this [stackexchange comment](https://unix.stackexchange.com/a/57939)
 
-For instance:
+Log example:
 ```
 [BEGIN REQUEST]
 127.0.0.1 HTTP/1.1 POST http://127.0.0.1:8080/
@@ -22,7 +22,7 @@ BODY
 [END REQUEST]
 ```
 
-___DISCLAIMER: Why Python? I'm not keen on untyped languages but this solution meets the "use just a script" requirement___
+_DISCLAIMER: Why Python? I'm not keen on untyped languages but this solution meets the "use just a script" requirement_
 
 ## Supported methods
 - GET
