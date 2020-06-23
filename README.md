@@ -1,11 +1,14 @@
 # Request Dumper
 
 
-This python script based on [Tornado](https://www.tornadoweb.org/en/stable/) creates a mock server that always returns a 200 OK response and logs the request.
+This python script based on [Tornado](https://www.tornadoweb.org/en/stable/) creates a mock server that always returns a 
+200 OK response and logs the request.
 
-The code is based on this [stackexchange comment](https://unix.stackexchange.com/a/57939)
+The request body can be logged as json or hex dump. 
 
-Log examples from curl
+Code is based on this [stackexchange comment](https://unix.stackexchange.com/a/57939)
+
+## Log examples using curl
 ```
 curl -X POST  127.0.0.1:8080 -d '{"id":1234, "message": "Hello World"}'
 ```
