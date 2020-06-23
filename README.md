@@ -46,7 +46,7 @@ BODY
 ```
 _DISCLAIMER: Why Python? I'm not keen on untyped languages but this solution meets the "use just a script" requirement_
 
-## Supported methods
+## Supported HTTP methods
 - GET
 - POST
 - PUT
