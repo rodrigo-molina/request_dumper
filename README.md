@@ -34,6 +34,12 @@ _DISCLAIMER: Why Python? I'm not keen on untyped languages but this solution mee
 ## Run it
 ### Docker
 ```bash
+docker run -p80:8080  agrev/request_dumper:latest
+```
+
+
+### Docker Local
+```bash
 docker build . -t request_dumper
 docker run -p 80:8080 request_dumper
 ```
@@ -58,7 +64,3 @@ export REQUEST_DUMPER_PORT=8081
 ## Contribute
 
 PRs are more than welcome.
-
-## TODO
-- [ ] Docker publish script 
-- [ ] Allow hex dumps 
